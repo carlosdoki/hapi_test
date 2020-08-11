@@ -14,8 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "appdynamics": "^20.7.0",
     "@hapi/hapi": "^19.1.1",
+    "appdynamics": "^20.7.0",
+    "hapi": "^18.1.0",
     "inert": "^5.1.3"
   }
 }
