@@ -2,6 +2,9 @@ import Hapi from "@hapi/hapi";
 import os from "os";
 import inert from "inert";
 
+const log = debug("export:server");
+const error = debug("export:server:error");
+
 const server = new Hapi.Server({
   port: process.env.PORT || 8081,
   host: os.platform() === "win32" ? "localhost" : "0.0.0.0",
