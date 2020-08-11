@@ -16,8 +16,7 @@ appdynamics.profile({
   logging: {
     logfiles: [
       {
-        root_directory:
-          "/Users/carlosdoki/Projetos/hapi_test_nodejs_appdynamics/logs",
+        root_directory: "./logs",
         filename: "echo_%N.log",
         level: "DEBUG",
         max_size: 5242880,
