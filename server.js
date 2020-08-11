@@ -1,4 +1,5 @@
 import Hapi from "@hapi/hapi";
+import debug from "debug";
 import os from "os";
 import inert from "inert";
 
