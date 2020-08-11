@@ -2,7 +2,8 @@
   "name": "hapi_test",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "type": "module",
   "private": true,
   "engines": {
     "node": ">=13"
