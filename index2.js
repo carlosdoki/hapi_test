@@ -1,4 +1,4 @@
-const hapi = require("@hapi/hapi");
+const hapi = require("hapi");
 const inert = require("inert");
 const server = hapi.server({
   port: 3000,
