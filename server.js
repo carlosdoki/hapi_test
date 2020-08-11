@@ -1,6 +1,7 @@
 import Hapi from "@hapi/hapi";
 import debug from "debug";
 import os from "os";
+import qs from "qs";
 import inert from "inert";
 
 const log = debug("export:server");
