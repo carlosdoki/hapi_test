@@ -1,11 +1,11 @@
 import appdynamics from "appdynamics";
 
 appdynamics.profile({
-  controllerHostName: "ec2-54-188-162-226.us-west-2.compute.amazonaws.com",
-  controllerPort: 8090,
-  controllerSslEnabled: false, // Set to true if controllerPort is SSL
-  accountName: "customer1",
-  accountAccessKey: "16ff4175-95c7-4c2f-807d-fb083e398055", //required
+  controllerHostName: "kroton.saas.appdynamics.com",
+  controllerPort: 443,
+  controllerSslEnabled: true, // Set to true if controllerPort is SSL
+  accountName: "kroton",
+  accountAccessKey: "", //required
   applicationName: "hub-precos",
   tierName: "export",
   nodeName: "hub-precos-export",
