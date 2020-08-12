@@ -1,8 +1,7 @@
 import appdynamics from "appdynamics";
-import { start } from "./server.js";
 
 appdynamics.profile({
-  controllerHostName: "ec2-54-214-166-126.us-west-2.compute.amazonaws.com",
+  controllerHostName: "ec2-54-188-162-226.us-west-2.compute.amazonaws.com",
   controllerPort: 8090,
   controllerSslEnabled: false, // Set to true if controllerPort is SSL
   accountName: "customer1",
@@ -27,4 +26,5 @@ appdynamics.profile({
   },
 });
 
+import { start } from "./server.js";
 start();
